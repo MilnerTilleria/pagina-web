@@ -1,0 +1,70 @@
+html, body{
+   
+    background-color:#ece1da;
+    font-family: 'Playpen Sans', cursive;
+}
+.encabezado{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.carousel-item {
+    margin-left: 10%;
+}
+
+/* .btn {
+    margin-left: 82%;
+} */
+
+@keyframes floatIn {
+    from {
+        transform: translateY(-50px); /* Comienza arriba */
+        opacity: 0; /* Empieza invisible */
+    }
+    to {
+        transform: translateY(0); /* Llega a su posición normal */
+        opacity: 1; /* Aparece completamente */
+    }
+}
+
+/* Definimos la animación para las imágenes */
+@keyframes floatInImage {
+    from {
+        transform: translateX(100px); 
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.float-header {
+    text-align: center;
+    color: #5e7eb9;
+    animation: floatIn 2s ease-out; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.float-image {
+    animation: floatInImage 2.5s ease-out; 
+}
+
+
+/* Contacto html */
+
+.oficina{
+    margin-left: 5%;
+    animation: floatIn 2s ease-out; 
+}
+
+.ubicacion{
+    margin-left: 50%;
+    animation: floatIn 2s ease-out; 
+    margin-top: -8%;
+    height: 20%;
+}
