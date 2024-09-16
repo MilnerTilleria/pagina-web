@@ -8,6 +8,9 @@ html, body{
     align-items: center;
     margin-bottom: 5%;
 }
+.navbar-toggler-icon{
+    align-items: right;
+}
 
 
 .carousel-item {
